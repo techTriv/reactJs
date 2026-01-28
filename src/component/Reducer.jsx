@@ -5,6 +5,8 @@ const reducerFun = (state, action) => {
   switch (action.type) {
     case "increament":
       return state + 2;
+    case "decreament":
+      return state - 1;
 
     default:
       return state;
